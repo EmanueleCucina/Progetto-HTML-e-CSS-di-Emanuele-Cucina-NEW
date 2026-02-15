@@ -1,0 +1,118 @@
+@use '../custom' as *;
+
+
+.nav-link:hover {
+    text-decoration: underline;
+}
+
+
+.active:not(.unstyled) {
+    opacity: 0.5;
+    text-decoration: none;
+}
+
+
+.display-2 {
+    margin-bottom: 1rem;
+    text-transform: capitalize;
+    font-family: "Sora", sans-serif;
+
+    &--biointro {
+        display: inline-block;
+        font-weight: 700;
+        color: $primary;
+    }
+
+    &--bio {
+        font-size: 1rem;
+        display: block;
+        margin-top: 1.5rem;
+        text-transform: none;
+
+        @include media-breakpoint-up(lg) {
+            font-size: 1.4rem;
+            display: inline-block;
+        }
+    }
+}
+
+
+.skills {
+    margin-top: 4.5rem;
+    text-transform: capitalize;
+    font-family: "Sora", sans-serif;
+    text-align: center;
+}
+
+
+.projects {
+    margin-top: 4.5rem;
+    text-transform: capitalize;
+    font-family: "Sora", sans-serif;
+    text-align: center;
+
+    .card-text {
+        font-size: 1rem;
+        display: block;
+        margin-top: 1.5rem;
+        text-transform: none;
+    }
+}
+
+
+.display-CV {
+    margin-bottom: 1rem;
+    text-align: center;
+    text-transform: capitalize;
+    font-family: "Sora", sans-serif;
+}
+
+
+.subtitle-CV {
+    margin-bottom: 1rem;
+    text-transform: capitalize;
+    font-family: "Sora", sans-serif;
+}
+
+
+.display-contact {
+    margin-bottom: 1rem;
+    text-align: center;
+    text-transform: capitalize;
+    font-family: "Sora", sans-serif;
+}
+
+
+.card-body {
+    font-family: "Sora", sans-serif;
+}
+
+.display-contact {
+    margin-bottom: 3rem;
+    text-align: center;
+    text-transform: capitalize;
+    font-family: "Sora", sans-serif;
+}
+
+
+.form {
+    margin-bottom: 1rem;
+    text-align: left;
+    text-transform: none;
+    font-family: "Sora", sans-serif;
+}
+
+
+.cta-info {
+    font-family: "Sora", sans-serif;
+}
+
+
+.footer {
+    font-family: "Sora", sans-serif;
+}
+
+
+.fab:hover {
+    text-decoration: underline;
+}

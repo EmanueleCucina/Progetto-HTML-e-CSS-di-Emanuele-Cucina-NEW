@@ -1,0 +1,5 @@
+@use '../custom' as *;
+
+.btn:hover{
+    background-color: $tertiary;
+}

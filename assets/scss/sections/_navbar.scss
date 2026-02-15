@@ -1,0 +1,16 @@
+@use '../custom' as *;
+
+.menu {
+    ul{
+        margin-right: 1.5rem;
+    }
+    li{
+        padding: 0 3rem;
+
+        a{
+            color: $secondary !important;
+            text-transform: capitalize;
+            font-weight: 600;
+        }
+    }
+}

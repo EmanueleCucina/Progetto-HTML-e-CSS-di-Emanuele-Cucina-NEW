@@ -1,0 +1,27 @@
+{
+  "name": "progetto-html-e-css-di-emanuele-cucina",
+  "version": "1.0.0",
+  "description": "Progetto HTML e CSS di Emanuele Cucina",
+  "keywords": [
+    "HTML",
+    "CSS",
+    "SASS",
+    "Bootstrap"
+  ],
+  "license": "ISC",
+  "author": "Emanuele Cucina",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "sass --watch scss:assets/css"
+  },
+  "devDependencies": {
+    "sass": "^1.97.2"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^7.1.0",
+    "autoprefixer": "^10.4.23",
+    "bootstrap": "^5.3.8",
+    "postcss-cli": "^11.0.1"
+  }
+}

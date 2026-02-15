@@ -1,0 +1,25 @@
+@use '../custom' as *;
+
+
+.footer {
+    padding-top: 1rem;
+    background-color: $primary;
+}
+
+.footer-sm {
+    color: $secondary;
+
+    a {
+        color: $secondary;
+
+        i {
+            font-size: 1rem;
+            margin-left: 1rem;
+
+            @include media-breakpoint-up(sm) {
+                font-size: 1.6rem;
+            }
+        }
+    }
+
+}

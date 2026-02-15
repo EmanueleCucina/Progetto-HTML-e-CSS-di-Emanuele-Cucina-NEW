@@ -1,0 +1,16 @@
+@use '../custom' as *;
+
+.projects{
+
+    .card{
+        margin: 2rem 0 4rem 0;
+    }
+}
+
+.digital-content{
+    .card{
+        img{
+            margin: 0 0.5rem;
+        }
+    }
+}

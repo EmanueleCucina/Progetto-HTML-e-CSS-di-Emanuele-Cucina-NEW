@@ -1,0 +1,72 @@
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.education-content{
+    margin: 2.4rem 0;
+
+    .container-resume{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 2rem;
+    
+        justify-content: center;
+        align-content: center;
+    }
+}
+
+
+.language-content{
+    margin: 2.4rem 0;
+
+    .container-resume{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 2rem;
+    
+        justify-content: center;
+        align-content: center;
+    }
+}
+
+
+.digital-content{
+    margin: 2.4rem 0;
+
+    .container-resume{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 2rem;
+    
+        justify-content: center;
+        align-content: center;
+    }
+}
+
+
+.cta-info{
+    padding: 3rem;
+    margin: 1rem 0;
+}
+
+
+.form{
+    padding: 3rem;
+
+    button{
+        border: none;
+
+        a{
+            text-decoration: none;
+            text-transform: capitalize;
+        }
+    }
+}
+
+
+footer{
+    margin-top: auto;
+}

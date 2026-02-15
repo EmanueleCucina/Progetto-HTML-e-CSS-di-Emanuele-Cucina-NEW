@@ -1,0 +1,17 @@
+@use 'custom';
+
+//IMPORT COMPONENTS
+
+@use 'components/layout';
+@use 'components/buttons';
+@use 'components/cards';
+
+@use 'assets/scss/components/typography';
+@use 'components/images';
+
+//IMPORT SECTIONS
+
+@use 'sections/navbar';
+@use 'sections/bio';
+
+@use 'sections/footer';
